@@ -1,0 +1,144 @@
+.nav {
+	padding: 3em 0;
+	border-top: 1px solid #AAA;
+	margin: -1px 0;
+}
+.nav .menu__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav .menu__list li {
+	display: inline;
+	padding: 0 20px;
+}
+.nav .menu__list li a {
+	position: relative;
+	display: inline-block;
+	padding: 15px 0;
+	font-weight: 700;
+	color: #4C4C4C;
+	text-decoration: none;
+	transition: .35s ease;
+	border-bottom: 3px solid transparent;
+}
+.nav .menu__list li a:after {
+	position: absolute;
+	display: inline-block;
+	background: #4285F4;
+	content: " ";
+	width: 0;
+	height: 0;
+	transition: .35s ease;
+}
+
+.nav .menu__list li a:hover {
+	color: #4285F4;
+}
+.nav.nav--simple .menu__list li a:hover {
+	border-bottom: 3px solid #4285F4;
+	color: #4285F4;
+}
+
+.nav.nav--shadow.top .menu__list li a:hover {
+	box-shadow: 0 -4px 0 #4285F4;
+}
+
+.nav.nav--shadow.top-inset .menu__list li a:hover {
+	box-shadow: 0 4px 0 #4285F4 inset;
+}
+
+.nav.nav--shadow.bottom .menu__list li a:hover {
+	box-shadow: 0 4px 0 #4285F4;
+}
+
+.nav.nav--shadow.bottom-inset .menu__list li a:hover {
+	box-shadow: 0 -4px 0 #4285F4 inset;
+}
+/* Line: left */
+.nav.nav--line.bottom.left .menu__list li a:after {
+	left: 0;
+	bottom: 0;
+	height: 3px;
+}
+.nav.nav--line.bottom.left .menu__list li a:hover:after {
+	width: 100%;
+}
+
+/* Line: Bottom Right */
+.nav.nav--line.bottom.right .menu__list li a:after {
+	right: 0;
+	bottom: 0;
+	height: 3px;
+}
+.nav.nav--line.bottom.right .menu__list li a:hover:after {
+	width: 100%;
+}
+
+/* Line: Bottom Right */
+.nav.nav--line.bottom.right-out .menu__list li a:after {
+	bottom: 0;
+	left: 0;
+	height: 3px;
+}
+.nav.nav--line.bottom.right-out .menu__list li a:hover:after {
+	width: 100%;
+	right: 0;
+	left: auto;
+}
+
+/* Line: Bottom Left */
+.nav.nav--line.bottom.left-out .menu__list li a:after {
+	bottom: 0;
+	right: 0;
+	height: 3px;
+}
+.nav.nav--line.bottom.left-out .menu__list li a:hover:after {
+	width: 100%;
+	left: 0;
+	right: auto;
+}
+
+/* Line: Top Left */
+.nav.nav--line.top.left .menu__list li a:after {
+	top: 0;
+	left: 0;
+	height: 3px;
+}
+.nav.nav--line.top.left .menu__list li a:hover:after {
+	width: 100%;
+}
+
+/* Line: Top Right */
+.nav.nav--line.top.right .menu__list li a:after {
+	top: 0;
+	right: 0;
+	height: 3px;
+}
+.nav.nav--line.top.right .menu__list li a:hover:after {
+	width: 100%;
+}
+
+/* Line: Bottom Center */
+.nav.nav--line.bottom.center .menu__list li a:after {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	margin: 0 auto;
+}
+.nav.nav--line.bottom.center .menu__list li a:hover:after {
+	width: 100%;
+}
+
+/* Line: Top Center */
+.nav.nav--line.top.center .menu__list li a:after {
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	margin: 0 auto;
+}
+.nav.nav--line.top.center .menu__list li a:hover:after {
+	width: 100%;
+}
