@@ -1,4 +1,4 @@
-# Beautiful Menulines & Hover Effects using CSS
+# Beautiful Menu(lines) & Hover Effects using CSS
 Simple Menu &amp; Hover Effects In CSS
 
 <a href="https://designdrastic.com/snippet/beautiful-menulines-effects"><strong>View Post</strong></a>
